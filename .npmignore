@@ -1,0 +1,10 @@
+test
+logo
+.editorconfig
+.travis.yml
+lint
+scripts
+.idea
+.github
+precommit.sh
+node_modules

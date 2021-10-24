@@ -1,109 +1,109 @@
 {
-  "name": "@champie/in-app-purchase",
-  "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows",
-  "version": "1.14.2",
-  "author": "Nobuyori Takahashi <voltrue2@yahoo.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/champie/in-app-purchase.git"
+ "name": "@cchitsiang/in-app-purchase",
+ "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows",
+ "version": "1.14.2",
+ "author": "Nobuyori Takahashi <voltrue2@yahoo.com>",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/champie/in-app-purchase.git"
+ },
+ "dependencies": {
+  "@xmldom/xmldom": "^0.7.5",
+  "fb": "^2.0.0",
+  "jwt-simple": "^0.5.6",
+  "request": "^2.88.2",
+  "urlsafe-base64": "^1.0.0",
+  "xml-crypto": "^2.1.3"
+ },
+ "devDependencies": {
+  "eslint": "^8.0.0",
+  "mocha": "^9.1.2"
+ },
+ "scripts": {
+  "lint": "make lint",
+  "test": "make lint && make test",
+  "publish": "npm publish --access public"
+ },
+ "#engine": "node >= 12",
+ "contributors": [],
+ "keywords": [
+  "Apple",
+  "iOS",
+  "Android",
+  "Windows",
+  "Amazon",
+  "Roku",
+  "Purchase",
+  "Subscription",
+  "App",
+  "in-app-purchase",
+  "in-app-billing",
+  "Validation",
+  "IAP"
+ ],
+ "eslintConfig": {
+  "parserOptions": {
+   "ecmaVersion": 6,
+   "sourceType": "module",
+   "jsx": true
   },
-  "dependencies": {
-    "@xmldom/xmldom": "^0.7.5",
-    "fb": "^2.0.0",
-    "jwt-simple": "^0.5.6",
-    "request": "^2.88.2",
-    "urlsafe-base64": "^1.0.0",
-    "xml-crypto": "^2.1.3"
+  "env": {
+   "node": true,
+   "es6": true,
+   "amd": true,
+   "mocha": true
   },
-  "devDependencies": {
-    "eslint": "^8.0.0",
-    "mocha": "^9.1.2"
-  },
-  "scripts": {
-    "lint": "make lint",
-    "test": "make lint && make test",
-    "publish": "npm publish --access public"
-  },
-  "#engine": "node >= 12",
-  "contributors": [],
-  "keywords": [
-    "Apple",
-    "iOS",
-    "Android",
-    "Windows",
-    "Amazon",
-    "Roku",
-    "Purchase",
-    "Subscription",
-    "App",
-    "in-app-purchase",
-    "in-app-billing",
-    "Validation",
-    "IAP"
-  ],
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module",
-      "jsx": true
-    },
-    "env": {
-      "node": true,
-      "es6": true,
-      "amd": true,
-      "mocha": true
-    },
-    "rules": {
-      "max-depth": "error",
-      "no-undef": "error",
-      "no-unused-vars": "error",
-      "no-cond-assign": "error",
-      "no-console": "warn",
-      "no-dupe-args": "error",
-      "no-dupe-keys": "error",
-      "no-empty": "error",
-      "no-duplicate-case": "error",
-      "no-func-assign": "error",
-      "no-inner-declarations": "warn",
-      "no-irregular-whitespace": "error",
-      "no-obj-calls": "error",
-      "no-sparse-arrays": "error",
-      "no-unreachable": "error",
-      "no-unsafe-negation": "error",
-      "use-isnan": "error",
-      "valid-typeof": "error",
-      "dot-notation": "warn",
-      "guard-for-in": "off",
-      "no-eval": "error",
-      "no-global-assign": "error",
-      "no-implicit-globals": "error",
-      "no-implied-eval": "error",
-      "no-loop-func": "error",
-      "no-octal": "off",
-      "no-octal-escape": "off",
-      "no-proto": "error",
-      "no-redeclare": "error",
-      "no-restricted-properties": "error",
-      "eqeqeq": "error",
-      "quotes": [
-        "error",
-        "single"
-      ],
-      "curly": "error",
-      "camelcase": "error",
-      "validthis": "off",
-      "bitwise": "off",
-      "semi": "error"
-    }
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/champie/in-app-purchase/issues"
-  },
-  "homepage": "https://github.com/champie/in-app-purchase#readme",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
+  "rules": {
+   "max-depth": "error",
+   "no-undef": "error",
+   "no-unused-vars": "error",
+   "no-cond-assign": "error",
+   "no-console": "warn",
+   "no-dupe-args": "error",
+   "no-dupe-keys": "error",
+   "no-empty": "error",
+   "no-duplicate-case": "error",
+   "no-func-assign": "error",
+   "no-inner-declarations": "warn",
+   "no-irregular-whitespace": "error",
+   "no-obj-calls": "error",
+   "no-sparse-arrays": "error",
+   "no-unreachable": "error",
+   "no-unsafe-negation": "error",
+   "use-isnan": "error",
+   "valid-typeof": "error",
+   "dot-notation": "warn",
+   "guard-for-in": "off",
+   "no-eval": "error",
+   "no-global-assign": "error",
+   "no-implicit-globals": "error",
+   "no-implied-eval": "error",
+   "no-loop-func": "error",
+   "no-octal": "off",
+   "no-octal-escape": "off",
+   "no-proto": "error",
+   "no-redeclare": "error",
+   "no-restricted-properties": "error",
+   "eqeqeq": "error",
+   "quotes": [
+    "error",
+    "single"
+   ],
+   "curly": "error",
+   "camelcase": "error",
+   "validthis": "off",
+   "bitwise": "off",
+   "semi": "error"
   }
+ },
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/champie/in-app-purchase/issues"
+ },
+ "homepage": "https://github.com/champie/in-app-purchase#readme",
+ "main": "index.js",
+ "directories": {
+  "lib": "lib",
+  "test": "test"
+ }
 }
